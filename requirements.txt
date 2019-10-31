@@ -2,5 +2,4 @@ numpy
 discord
 asyncio
 requests
-getopt 
 colorama
