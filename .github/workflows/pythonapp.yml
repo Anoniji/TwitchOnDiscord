@@ -1,4 +1,4 @@
-name: Python application
+name: Lint Python 3 Script
 
 on: [push]
 
