@@ -1,0 +1,7 @@
+numpy
+threading
+discord
+asyncio
+requests
+getopt 
+colorama
