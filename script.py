@@ -207,13 +207,13 @@ try:
 
     try:                client.run(discord_key)
     except Exception:   pass
+    client.send_message(message.channel, stop_responce)
     client.close()
 
 except KeyboardInterrupt as e:
-    client.send_message(message.channel, stop_responce)
     sys.exit(0)
 
 time.sleep(5)
-subprocess.Popen([sys.executable] + Sargs, creationflags=subprocess.CREATE_NEW_CONSOLE)
+subprocess.Popen([sys.executable] + " ".join(sys.argv), creationflags=subprocess.CREATE_NEW_CONSOLE)
 time.sleep(5)
 sys.exit(0)
